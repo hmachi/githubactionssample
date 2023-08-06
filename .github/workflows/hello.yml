@@ -7,6 +7,3 @@ jobs: # ワークフローで実行するジョブを定義
     runs-on: ubuntu-latest # ジョブが実行される仮想環境を指定
     steps: # ジョブ内で実行される処理を定義していく
       - run: echo "Hello, World!"  # Hello, World!を表示する
-
-
-
